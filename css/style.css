@@ -1,0 +1,66 @@
+
+
+body{
+	background:url('../img/film.jpg');
+	background-size:cover;
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+header nav{
+	color:red;
+
+}
+li {
+	display:inline-block;
+	margin-right:50px;
+}
+div{
+
+}
+
+ .idid{
+	border-radius:20%;
+	position-top:50%;
+	position-top:fixed;
+	display:inline-block;
+	
+	width:300px;
+	height:50px;
+	margin-left:50%;
+	box-sizing:border-box;
+	
+	}
+	/*.foter{
+		position-top:fixed;
+	}
+	*/
+.box{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+
+}
+input{
+	position:relative;
+	display:inline-block;
+	font-size:20px;
+	border-radius:20%;
+}
+.form{
+	display: inline-block;
+}
+#lol{
+	display: inline-block;
+	
+}
+
+
+
+
+
+
+
+
