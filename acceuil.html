@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="viewport" content="width=device-width,initial-scale=1.0">
+		<title> Movies Island </title>
+		<style type="text/css">
+			body{
+				height:100vh;
+				margin :0px;
+				font-family:"arial",sans-serif;
+				}
+			#header{
+				background-color: #34495e;
+				height:10vh;
+				padding-top:15px;
+				padding-bottom:0px;
+				padding-left:20px;
+				padding-right:20px;
+				position: fixed;
+				top:0px;
+				left:0px;
+				right:0px;
+				z-index:2;
+			}
+			#header a{
+
+				color: white;
+
+
+			}
+			#sidebar{
+
+				background-color:#1abc9c;
+				height:87vh;
+				width:15%;
+				display:inline-block;
+				position: fixed;
+				left:0px;
+				bottom:0px;	
+				padding-top:30px;			
+				z-index:1;
+
+			}
+			#sidebar a{
+				color: white;
+
+			}
+			#bodyarea{
+				background-color: #ecf0f1;
+				/*height:80vh;*/
+				width:60%;
+				display: inline-block;
+				float:right;
+			}
+			.div{
+				height: 30px;
+			}
+			#menu{
+				display: inline-block;
+				float:right;
+				margin:0px;
+
+			}
+			#menu li{
+
+				display: inline-block;
+				margin-left: 20px;
+				text-transform: capitalize;
+
+			}
+			#menu a {
+				text-decoration: none;
+
+				}
+			#logo{
+				margin-right:20px;
+				color: #2c3e50;
+
+			}
+			#search{border-radius: 10px;
+					padding:10px;
+			}
+			#logo img{border-radius: 10px;}
+			#bodyarea li{
+				display: inline-block;
+				width:200px;
+			}
+
+			
+		</style>
+
+	</head>
+	<body>
+		<!--hna header-->
+		<header class="div" id="header" >
+			<a href="" id="logo" ><img src="img/logo.png" width="140px" align="left"></a>
+			<input type="text" placeholder="search for a movie ... " id="search">
+			<ul id="menu" >
+				<li><a href="ACCEUIL.html">ACCEUIL</a></li>
+				<li> <a href="#">MA LISTE</a></li>
+				<!--<li><a href="#">recherche</a></li>-->
+				<li><a href="#">CETTE ANNEE</a></li>
+				<!--<li><a href="LOGIN/se connecter.html">SE CONNECTER</a></li>-->
+			</ul>
+		</header>
+		<!--hna sala header-->
+		<!--hna bda aside-->
+		<aside  class="div"  id="sidebar">
+			<ul >
+				<li><a href="">All movies</a></li>
+				<li><a href="">thrillers</a></li>
+				<li><a href="">crime</a></li>
+				<li><a href="">comedy</a></li>
+				<li><a href="">action</a></li>
+				<li><a href="">Animation</a></li>
+				<li><a href="">Documentary</a></li>
+				<li><a href="">Drama</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+				<li><a href="">All movies</a></li>
+			</ul>
+		</aside>
+		<!--hna sala aside-->
+		<section class="div" id="bodyarea">
+			 <ul class="movies">
+        <li>
+          <a href="#">
+            <img src="img/movies/godzilla.jpg" alt="">
+            <h3 class="movie-title">Godzilla vs. Kong 2021</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/movies/intersteller.jpg" alt="">
+            <h3 class="movie-title">Intersteller 2014</h3>
+          </a>
+        </li>
+       
+        <li>
+          <a href="#">
+            <img src="img/movies/inception.jpg" alt="">
+            <h3 class="movie-title">Inception 2010</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/movies/spiderman.jpg" alt="">
+            <h3 class="movie-title">Spider-Man: Into the Spider-Verse 2018</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/movies/into-the-wild.jpg" alt="">
+            <h3 class="movie-title">Into the Wild 2007</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/movies/tenet.jpg" alt="">
+            <h3 class="movie-title">Tenet 2020</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/movies/incut-gems.jpg" alt="">
+            <h3 class="movie-title">Incut Gems 2019</h3>
+          </a>
+        </li>
+      </ul>
+		</section>
+		
+
+	</body>
+</html>
